@@ -1,0 +1,153 @@
+body {
+    background-color: #402218;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2.1em;
+    font-family: 'Berkshire Swash';
+}
+
+.inicio {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+
+}
+
+.sobre {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.produtos {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.equipe {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.contatos {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: #FF9494;
+    color: #000000;
+    border-radius: 1em 1em;
+    border: 0.1em solid #402218;
+    padding: 0.5em 0.5em;
+}
+
+.cupom {
+    text-align: center;
+    margin-top: 7em;
+}
+button{
+    padding:25px;
+    font-size:20px;
+    background-color: #FF9494;
+    border-radius: 1em 1em;
+}
+p{
+    font-family: 'Kalam';
+    font-size: 2em;
+    color: #FFFFFF;
+    text-align:center;
+}
+section h2 {
+    font-family: 'Kalam';
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-left:3%;
+    margin-right:3%;
+    background-color: pink;
+    color: #000000;
+    border-radius: 0.3em 0.3em;
+    text-align:center;
+}
+
+footer{
+    width:100%;
+    background-color:#FFC0CB;
+    display:flex;
+    flex-direction:row;
+    font-size:1em;
+    text-align:center;
+}
+
+h5{ 
+    font-size:1.3em;
+    margin-left:1em;
+    margin-top:2.5em;
+    
+}
+
+ul{
+    font-family: 'Kalam';
+    font-size:1.3em;
+    text-align:center;
+    background-color:#FFC0CB;
+    list-style-type: none;
+}
+
+h6{
+    text-align:center;
+    font-family: 'Kalam';
+    font-size:1em;
+    color: #FFFFFF;
+}
+
+@media (max-width:600px) {
+    h1,
+    a:hover {
+        font-size: 1em;
+        padding: 0;
+
+    }
+}
+
+@media (max-width:1000px) {
+    h1,
+    a:hover {
+        font-size: 1em;
+        padding: 0;
+    }
+}
+
+@media (max-width:600px){
+    header{
+        width:35em;
+        
+    }
+}
+
+@media (max-width:600px){
+    footer h5{
+        font-size:0.5em;
+        margin-top:5em;
+    }
+}

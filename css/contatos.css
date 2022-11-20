@@ -1,0 +1,237 @@
+body {
+    background-color: #402218;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    margin: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2.1em;
+    font-family: 'Berkshire Swash';
+}
+
+.inicio {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+
+}
+
+.sobre {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.produtos {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.equipe {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+.contatos {
+    width: 20%;
+    float: left;
+    background-color: #402218;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: #FF9494;
+    color: #000000;
+    border-radius: 1em 1em;
+    border: 0.1em solid #402218;
+    padding: 0.5em 0.5em;
+}
+
+header {
+    background-image: url(../img/29.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 7em;
+}
+
+.midias {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.midias img {
+    margin-bottom: 3em;
+}
+
+section h2 {
+    width: 100%;
+    font-family: 'Kalam';
+    font-size: 3em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: pink;
+    color: #000000;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    font-size: 30px;
+
+}
+
+input {
+    font-size: 1em;
+    font-family: 'Kalam';
+    width: 20em;
+    height: 1em;
+    margin-top: 1%;
+}
+
+input:invalid {
+    border-color: #DC123D;
+    box-shadow: 0px 0px 3px #DC123D;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+
+span {
+    color: #DC123D;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: 'Kalam';
+    margin-top: 3%;
+}
+
+textarea {
+    font-family: 'Kalam';
+    font-size: 1em;
+    width: 75%;
+    height: 6em;
+    margin-top: 1%;
+}
+
+button {
+    font-family: 'Kalam';
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+@media (max-width:600px) {
+
+    h1,
+    a:hover {
+        padding: 0;
+    }
+}
+
+@media (max-width:1000px) {
+
+    h1,
+    a:hover {
+        font-size: 16px;
+        padding: 1;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        width: 35em;
+
+    }
+}
+
+@media (max-width:600px) {
+    .logo {
+        margin-top: 3em;
+        margin-right: 10em;
+    }
+}
+
+@media (max-width:1000px) {
+    .logo {
+        margin-top: 3em;
+    }
+}
+
+@media (max-width:600px) {
+    header img {
+        margin-left: 9.5em;
+
+    }
+}
+
+@media (max-width:600px) {
+    section {
+        width: 100%;
+        font-size: 0.5em;
+        margin-left: 13em;
+
+    }
+}
+
+@media (max-width:600px) {
+    input {
+        width: 110%;
+        font-size: 0.5;
+        margin-left: 6em;
+    }
+}
+
+@media (max-width:600px) {
+    label {
+        margin-left: 6em;
+    }
+}
+
+@media (max-width:600px) {
+    textarea {
+        width: 11em;
+        margin-left: 6em;
+    }
+}
+
+@media (max-width:600px) {
+    button {
+        width: 4em;
+        margin-left: 6.5em;
+    }
+}
+
+@media (max-width:600px) {
+    .midias {
+        margin-left: 12em;
+    }
+}
