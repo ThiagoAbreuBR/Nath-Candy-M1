@@ -1,3 +1,3 @@
 function Compra(){
-    alert("Item adcionado ao carrinho")
+    alert("Item adicionado ao carrinho")
 }
